@@ -18,11 +18,13 @@ import time
 def main():
     disclaimer()
     getSelectedUserInputs()
-def diclaimer():
+def disclaimer():
+    print("=========================================================")
     print("We are not responsible for account bans")
     print("The players that use this script")
     print("The way it affects the game, game company, and platform")
     print("And any possible hardware damage")
+    print("=========================================================")
 def getSelectedUserInputs():
     userforward = input("What key do you have selected for moving forward: ")
     userJump = input("What key do you have selected for jumping: ")
